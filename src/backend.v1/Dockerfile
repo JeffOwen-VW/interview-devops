@@ -9,4 +9,4 @@ CMD ["app"]
 
 
 # This command starts up the app
-ENTRYPOINT ["/app/bin/server"]
+#ENTRYPOINT ["/app/bin/server"]
