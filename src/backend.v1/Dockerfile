@@ -1,4 +1,4 @@
-FROM golang:1.12.14 AS base
+FROM golang:1.16.2-buster AS base
 
 
 
