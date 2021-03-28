@@ -1,5 +1,5 @@
 FROM golang:1.12.14 AS base
-RUN sudo add-apt-repository ppa:longsleep/golang-backports && /
+RUN add-apt-repository ppa:longsleep/golang-backports && /
 RUN go run . && /
 RUN go build -i -o ./bin/server
 RUN chmod +x ./bin/server
