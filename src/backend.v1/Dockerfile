@@ -7,4 +7,4 @@ RUN go install -v ./...
 
 
 # This command starts up the app
-ENTRYPOINT ["/usr/local/go/bin/go run /go/src/app"]
+ENTRYPOINT ["/usr/local/go/bin/go", "run /go/src/app"]
