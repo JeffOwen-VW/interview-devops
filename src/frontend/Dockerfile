@@ -3,4 +3,4 @@ COPY ./src ./opt/src/
 COPY . ./opt
 RUN npm --prefix /opt install
 # This command starts up the app
-CMD npm  run start 
+CMD npm --prefix /opt run start 
