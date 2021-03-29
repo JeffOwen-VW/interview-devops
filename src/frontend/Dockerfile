@@ -1,5 +1,5 @@
 FROM node:12.14.0 AS base
-COPY ./src ./
+COPY ./src ./opt
 
 # This command starts up the app
-CMD npm run start
+CMD npm --prefix /opt run start 
