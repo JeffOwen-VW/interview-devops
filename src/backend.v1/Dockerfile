@@ -5,6 +5,6 @@ COPY . .
 RUN go get -d -v ./...
 RUN go install -v ./...
 
-
+CMD ["run /go/src/app/"]
 # This command starts up the app
-ENTRYPOINT ["/usr/local/go/bin/go", "run /go/src/app"]
+ENTRYPOINT ["/usr/local/go/bin/go"]
